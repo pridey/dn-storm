@@ -1,0 +1,16 @@
+# (c) 2017 DataNexus Inc.  All Rights Reserved
+#
+# Defaults that are necessary for all deployments of
+# Apache Storm
+---
+application: storm
+storm_version: "1.0.2"
+storm_url: "http://www-us.apache.org/dist/storm/apache-storm-{{storm_version}}/apache-storm-{{storm_version}}.tar.gz"
+storm_dir: "/opt/apache-storm"
+storm_package_list: ["java-1.8.0-openjdk", "java-1.8.0-openjdk-devel", "net-tools"]
+storm_zookeeper_servers: ["localhost"]
+storm_local_dir: "storm-local"
+nimbus_seeds: ["localhost"]
+zookeeper_version: "3.4.9"
+zookeeper_url: "http://www-us.apache.org/dist/zookeeper/zookeeper-{{zookeeper_version}}/zookeeper-{{zookeeper_version}}.tar.gz"
+zookeeper_dir: "/opt/apache-zookeeper"

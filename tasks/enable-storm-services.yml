@@ -1,0 +1,10 @@
+# (c) 2017 DataNexus Inc.  All Rights Reserved
+---
+- name: Enable storm services on boot
+  become: true
+  command: "systemctl enable {{item}}"
+  with_items:
+    - storm-nimbus.service
+    - storm-supervisor.service
+    - storm-ui.service
+  

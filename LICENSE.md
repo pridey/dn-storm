@@ -1,4 +1,4 @@
-&copy; 2016 DataNexus Inc.
+&copy; 2017 DataNexus Inc.
 
 DataNexus can be contacted at: [info@datanexus.org](mailto:info@datanexus.org).
 

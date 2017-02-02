@@ -1,2 +1,2 @@
 # dn-storm
-Playbooks/Roles used to deploy Kakfa
+Playbooks/Roles used to deploy Apache Storm
