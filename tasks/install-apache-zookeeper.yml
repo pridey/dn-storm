@@ -1,4 +1,5 @@
 # (c) 2017 DataNexus Inc.  All Rights Reserved
+---
 - name: Download zookeeper distribution to /tmp
   become: true
   get_url:
